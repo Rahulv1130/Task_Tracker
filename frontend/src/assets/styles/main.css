@@ -1,0 +1,125 @@
+h1 {
+    text-align: center;
+    color:  #27ae60;
+}
+
+h2{
+    text-align: center;
+    color:  #27ae60;
+}
+
+.form{
+    border: 2px solid slategray;
+    padding: 0px 10px;
+    width: max-content;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.plusIcon {
+    font-size: xx-large;
+    padding-right: 10px;
+    color: rgb(72, 72, 205);
+    font-weight: bold;
+    cursor: pointer
+}
+
+.addIcon {
+    cursor: pointer;
+    font-size: medium;
+    border-radius: 5px;
+    background-color: #e7e7e7;
+    border: 2px solid white;
+    color: black;
+    padding: 8px;
+    margin-left: 10px;
+}
+
+.addIcon:hover {
+    background-color: white;
+    border: 2px solid #e7e7e7;
+    transition-duration: 0.4s;
+}
+
+input {
+    display: block;
+    padding: 5px;
+    border-radius: 5x;
+}
+
+.addTask {
+    display: flex;
+    justify-content: center;
+}
+
+.incompleteTasks {
+    display: flex;
+}
+
+.completedTasks {
+    display: flex;
+}
+
+.checked {
+    text-decoration: line-through;
+    padding-left: 10px;
+    color: grey
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+button {
+    background-color:  #27ae60;
+    border-style: none;
+    padding: 8px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: large;
+    color: white
+}
+
+.route {
+    display: flex;
+    padding: 0px 20px;
+}
+
+.link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 7px;
+}
+
+.inputBox {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+}
+
+.taskView {
+    text-align: center;
+}
+
+.listItems {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    font-size: large;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 20%;
+}
+.navHeading {
+    font-size: large;
+    padding-top: 7px;
+}
